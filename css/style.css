@@ -1,0 +1,84 @@
+body {
+  font-family: roboto, sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-conf {
+  border-bottom: 2px solid #3292a6;
+  z-index: 10;
+}
+
+.navbar-conf .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-conf .nav-link {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.showcase {
+  min-height: 750px;
+  background-image: url(../images/mizuxe/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.showcase .primary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3292a6;
+  opacity: 0.8;
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    min-height: 600px;
+  }
+  .showcase h1 {
+    font-size: 4rem;
+  }
+}
+
+.accordion-config a {
+  color: #333;
+  font-weight: bold;
+}
+
+.accordion-config a i {
+  background-color: #333;
+  color: white;
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.author .card {
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+.author .card img {
+  margin: auto;
+  margin-top: -25px;
+}
+
+.author .card:hover {
+  background-color: #3292a6;
+}
+
+.scrollTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

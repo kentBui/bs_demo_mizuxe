@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="KentBui" />
+    <meta name="keyword" content="bootstrap, project" />
+    <meta name="description" content="learn bootstrap with project" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Mizuxe</title>
+  </head>
+  <body data-spy="scroll" data-target="#main-navbar">
+    <!-- Start Here -->
+    <nav
+      id="main-navbar"
+      class="navbar navbar-expand-md navbar-light bg-light py-3 navbar-conf"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img
+            src="./images/mizuxe/mlogo.png"
+            alt="logo"
+            class="img-fluid"
+            width="50"
+            height="50"
+          />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#author" class="nav-link">Meet The Author</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <main id="main">
+      <!-- start show cases  -->
+      <section id="home" class="showcase py-5">
+        <div class="primary-overlay text-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 text-center">
+                <h1 class="display-2 mt-5 pt-5 text-capitalize">
+                  Do what you dream of
+                </h1>
+                <p class="lead">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quia, blanditiis.
+                </p>
+                <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i> Read more
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <img
+                  src="./images/mizuxe/book.png"
+                  alt=""
+                  class="img-fluid d-none d-lg-block"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end show cases -->
+      <!-- start subscribe -->
+      <section id="subscribe" class="subscribe py-5 bg-dark">
+        <form>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter Name"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <button type="submit" class="btn btn-primary btn-block">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- end subscribe -->
+      <!-- start newsletter -->
+      <section id="newsletter" class="newsletter pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 pb-5">
+              <div class="card h-100 border-primary">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary text-capitalize">
+                    be better
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est fuga error
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pb-5">
+              <div class="card h-100 bg-primary text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-capitalize">
+                    be smarter
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    deleniti provident vero.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pb-5">
+              <div class="card h-100 border-primary">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary text-capitalize">
+                    be better
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est fuga error
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pb-5">
+              <div class="card h-100 bg-primary text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-capitalize">
+                    be smarter
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    deleniti provident vero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end newsletter -->
+      <!-- start about/why -->
+      <div id="about" class="text-center bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <h4 class="info__title text-primary text-capitalize pb-5">
+                why this book?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                rem?
+              </p>
+              <hr class="mt-4" />
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="accordion accordion-config" id="accordion">
+                <!-- one card -->
+                <div class="card">
+                  <div class="card-header text-center">
+                    <a
+                      href="#get-inspried"
+                      class="text-capitalize"
+                      data-toggle="collapse"
+                    >
+                      <i class="fa fa-arrow-down" aria-hidden="true"></i> get
+                      inspried
+                    </a>
+                  </div>
+                  <div
+                    class="card-body collapse show"
+                    id="get-inspried"
+                    data-parent="#accordion"
+                  >
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis exercitationem temporibus obcaecati quaerat nam.
+                      Deleniti, excepturi? Facilis veritatis unde voluptatibus!
+                      Quas sequi odit placeat quam quisquam possimus laudantium
+                      repellendus mollitia.
+                    </p>
+                  </div>
+                </div>
+                <!-- end one card -->
+                <!-- one card -->
+                <div class="card">
+                  <div class="card-header text-center">
+                    <a
+                      href="#open-mind"
+                      class="text-capitalize"
+                      data-toggle="collapse"
+                    >
+                      <i class="fa fa-arrow-down" aria-hidden="true"></i> open
+                      your mind
+                    </a>
+                  </div>
+                  <div
+                    class="card-body collapse"
+                    id="open-mind"
+                    data-parent="#accordion"
+                  >
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis exercitationem temporibus obcaecati quaerat nam.
+                      Deleniti, excepturi? Facilis veritatis unde voluptatibus!
+                      Quas sequi odit placeat quam quisquam possimus laudantium
+                      repellendus mollitia.
+                    </p>
+                  </div>
+                </div>
+                <!-- end one card -->
+                <!-- one card -->
+                <div class="card">
+                  <div class="card-header text-center">
+                    <a
+                      href="#gain-knowledge"
+                      class="text-capitalize"
+                      data-toggle="collapse"
+                    >
+                      <i class="fa fa-arrow-down" aria-hidden="true"></i> gain
+                      the knowledge
+                    </a>
+                  </div>
+                  <div
+                    class="card-body collapse"
+                    id="gain-knowledge"
+                    data-parent="#accordion"
+                  >
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis exercitationem temporibus obcaecati quaerat nam.
+                      Deleniti, excepturi? Facilis veritatis unde voluptatibus!
+                      Quas sequi odit placeat quam quisquam possimus laudantium
+                      repellendus mollitia.
+                    </p>
+                  </div>
+                </div>
+                <!-- end one card -->
+              </div>
+            </div>
+            <!-- end one card -->
+          </div>
+        </div>
+      </div>
+      <!-- end about/why -->
+      <!-- start author -->
+      <section class="author" id="author">
+        <div class="container">
+          <div class="row">
+            <!-- one author -->
+            <div class="col-lg-3 col-sm-6 my-5">
+              <div class="card">
+                <img
+                  src="./images/mizuxe/person1.jpg"
+                  alt="author 1"
+                  class="img-fluid w-50 rounded-circle"
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Lorem, ipsum.</h4>
+                  <p class="text-muted font-weight-bold">Lorem, ipsum.</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit, eum nemo. Quo harum est cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end one author -->
+            <!-- one author -->
+            <div class="col-lg-3 col-sm-6 my-5">
+              <div class="card">
+                <img
+                  src="./images/mizuxe/person2.jpg"
+                  alt="author 1"
+                  class="img-fluid w-50 rounded-circle"
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Lorem, ipsum.</h4>
+                  <p class="text-muted font-weight-bold">Lorem, ipsum.</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit, eum nemo. Quo harum est cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end one author -->
+            <!-- one author -->
+            <div class="col-lg-3 col-sm-6 my-5">
+              <div class="card">
+                <img
+                  src="./images/mizuxe/person3.jpg"
+                  alt="author 1"
+                  class="img-fluid w-50 rounded-circle"
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Lorem, ipsum.</h4>
+                  <p class="text-muted font-weight-bold">Lorem, ipsum.</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit, eum nemo. Quo harum est cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end one author -->
+            <!-- one author -->
+            <div class="col-lg-3 col-sm-6 my-5">
+              <div class="card">
+                <img
+                  src="./images/mizuxe/person4.jpg"
+                  alt="author 1"
+                  class="img-fluid w-50 rounded-circle"
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Lorem, ipsum.</h4>
+                  <p class="text-muted font-weight-bold">Lorem, ipsum.</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit, eum nemo. Quo harum est cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end one author -->
+          </div>
+        </div>
+      </section>
+      <!-- end author -->
+      <!-- start contact  -->
+      <section class="contact my-5" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="text-capitalize">get in touch</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-9">
+              <form>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <textarea
+                      name="message"
+                      class="form-control"
+                      rows="5"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-3">
+              <a href="#"
+                ><img src="./images/mizuxe/mlogo.png" class="img-fluid" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contact -->
+    </main>
+    <footer class="bg-primary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-white">
+            Copyright &copy; by KentBui <span id="year"></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button class="scrollTop btn btn-outline-danger" type="button">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <!-- End -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/64525e709d.js"></script>
+    <script>
+      // get year
+      $("#year").text(new Date().getFullYear());
+      // scroll smooth
+      $("#navbar-menu a").on("click", function (e) {
+        if (this.hash) {
+          e.preventDefault();
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+      // scroll to top smooth
+      $(".scrollTop").on("click", function () {
+        $("html, body").animate(
+          {
+            scrollTop: 0,
+          },
+          800
+        );
+      });
+    </script>
+  </body>
+</html>
